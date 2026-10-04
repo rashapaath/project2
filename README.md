@@ -10,31 +10,33 @@ This project builds a Market Research Agent using Amazon Quick.
 
 
 
-The agent analyzes North American electric vehicle market information and provides evidence-based insights on market growth, competitive dynamics, opportunities, risks, and strategic implications.
+The agent analyzes North American electric vehicle (EV) market information and provides evidence-based insights on market trends, competitive dynamics, opportunities, risks, and strategic implications.
 
 
 
-\## Amazon Quick Components
+\## Amazon Quick Space
 
 
 
-\### 1. Space
+The project uses an Amazon Quick Space containing the supporting knowledge sources used by the agent.
 
 
 
-A custom Amazon Quick Space named `project2` was created to provide the agent with relevant knowledge sources.
+\*\*Quick Space:\*\*  
+
+https://us-west-2.quicksight.aws.amazon.com/sn/account/UdacityQuicksightLab/spaces/0ad4b207-eac0-417c-b357-68db377e69be
 
 
 
-The Space contains market research documents related to the North American electric vehicle market.
+\## Market Research
 
 
 
-\### 2. Quick Research
+The project includes research generated using Amazon Quick Research.
 
 
 
-Amazon Quick Research was used to analyze the North American electric vehicle market and generate a research report covering:
+The research focuses on the North American electric vehicle market, including:
 
 
 
@@ -42,45 +44,101 @@ Amazon Quick Research was used to analyze the North American electric vehicle ma
 
 \- Competitive dynamics
 
-\- Market projections through 2030
-
 \- Strategic opportunities
 
-\- Risks and challenges
+\- Market projections
+
+\- Industry risks
+
+\- Evidence-based market insights
 
 
 
-\### 3. Market Intelligence Agent
+\## Market Research Agent
 
 
 
-A custom Chat Agent named \*\*Market Intelligence Agent\*\* was created using the knowledge available in the `project2` Space.
+The Market Intelligence Agent uses the knowledge available in the project Space to answer questions and provide evidence-based analysis.
 
 
 
-The agent was designed to provide evidence-based market intelligence and answer questions using the connected research materials.
+\### Example Question
 
 
 
-\## Repository Contents
+> What are the key growth trends and strategic opportunities in the North American EV market through 2030?
 
 
 
-```text
-
-Market\_Research\_Agent\_Submission\_screenshot/
-
-├── 01\_space\_contents.png
-
-├── 02\_quick\_research\_report.png
-
-├── agent\_answer.png
-
-└── Market\_Intelligence\_Agent.png
+The agent uses the knowledge in the project Space to generate its response.
 
 
 
-research-brief/
+\## Project Files
 
-└── Market\_Intelligence\_Brief.pdf
+
+
+\### `research-brief/`
+
+
+
+Contains the final market research brief.
+
+
+
+\### `Market\_Research\_Agent\_Submission\_screenshot/`
+
+
+
+Contains supporting screenshots demonstrating:
+
+
+
+1\. Amazon Quick Space and its contents
+
+2\. Amazon Quick Research report
+
+3\. Agent-generated research answer
+
+4\. Market Intelligence Agent configuration
+
+
+
+\## Screenshots
+
+
+
+The screenshots document the completed project and demonstrate the Amazon Quick Space, research output, and Market Intelligence Agent.
+
+
+
+\## Technologies
+
+
+
+\- Amazon Quick
+
+\- Amazon Quick Spaces
+
+\- Amazon Quick Research
+
+\- Amazon Quick Chat Agents
+
+\- Generative AI
+
+\- Market Research
+
+
+
+\## Submission
+
+
+
+This GitHub repository contains the research brief and supporting screenshots required for the project submission.
+
+
+
+\*\*GitHub Repository:\*\*  
+
+https://github.com/rashapaath/project2
 
